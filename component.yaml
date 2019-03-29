@@ -1,0 +1,13 @@
+name: production-demo
+subcomponents:
+  - name: cloud-native
+    source: https://github.com/timfpark/fabrikate-cloud-native
+    method: git
+    version: master
+  # - name: jackson
+  #   source: https://github.com/microsoft/fabrikate-entref-spring-boot
+  #   method: git
+  - name: bookinfo
+    source: https://github.com/evanlouie/fabrikate-bookinfo
+    method: git
+    version: 2.0.0

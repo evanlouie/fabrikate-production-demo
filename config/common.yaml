@@ -1,0 +1,8 @@
+config: {}
+subcomponents:
+  # jackson:
+  #   injectNamespace: true
+  #   namespace: jackson
+  bookinfo:
+    injectNamespace: true
+    namespace: bookinfo
